@@ -123,6 +123,7 @@ const App = () => {
         setTimeout(() => setAlert(null), 3000)
       })
         .catch(() => {
+          console.log('Information already removed from directory.')
           setAlert(`Information for ${person.name} has already been removed from the directory`)
           setTimeout(() => {
             setAlert(null) 

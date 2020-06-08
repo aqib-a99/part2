@@ -1,11 +1,6 @@
 {
   "persons": [
     {
-      "name": "Mui",
-      "number": "8802087777",
-      "id": 10
-    },
-    {
       "name": "Albert Einstein",
       "number": "123123123",
       "id": 12
